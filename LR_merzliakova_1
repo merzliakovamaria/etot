@@ -1,0 +1,13 @@
+man# output of the manual page
+info# output of the manual page in GNU textinfo format
+echo# output of a text string
+pwd# output of the users current working directory
+/root/etot1/etot
+date# output of the current system date and time
+Пн 06 ноя 2023 21:31:08 +05
+who# displaying a list of users authorized in the system
+admin1   tty1         2023-11-06 13:16
+admin1   tty3         2023-11-06 19:26
+admin1   tty2         2023-11-06 20:46
+ls# output of the contents of a directory
+cat# output of file contents
