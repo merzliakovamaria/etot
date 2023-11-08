@@ -1,0 +1,20 @@
+
+.
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat8
+├── dir
+│   └── current_date
+├── etot
+│   ├── file1
+│   ├── LR_merzliakova_1
+│   ├── LR_merzliakova_2
+│   ├── newfile
+│   └── README.md
+└── LR_merzliakova_2
+
+9 directories, 7 files
