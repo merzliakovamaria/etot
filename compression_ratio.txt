@@ -1,0 +1,5 @@
+         compressed        uncompressed  ratio uncompressed_name
+               1446                7089  80.1% filelist1.txt
+               1633                7089  77.4% filelist1.txt.gz1
+               1446                7089  80.1% filelist1.txt.gz9
+               4525               21267  78.9% (totals)

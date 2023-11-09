@@ -1,0 +1,10 @@
+итого 36K
+drwxr-xr-x 2 root root 4,0K ноя  9 00:12 cat1
+-rw-r--r-- 1 root root  205 ноя  9 02:13 cut_result
+-rw-r--r-- 1 root root  206 ноя  9 02:24 cut_result1
+-rw-r--r-- 1 root root  206 ноя  9 02:23 cut_result3
+-rw-r--r-- 1 root root  476 ноя  9 18:29 et
+drwxr-xr-x 3 root root 4,0K ноя  8 23:21 etot
+drwxr-xr-x 5 root root 4,0K ноя  9 18:28 etot1
+drwxr-xr-x 4 root root 4,0K ноя  8 22:29 projects
+drwxr-xr-x 3 root root 4,0K ноя  7 23:54 q
