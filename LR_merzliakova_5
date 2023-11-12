@@ -1,0 +1,74 @@
+      2       0 [kthreadd] 
+      1       0 /sbin/init
+    430       1 /bin/login -p --
+    187       1 /lib/systemd/systemd-journald
+    391       1 /lib/systemd/systemd-logind
+    207       1 /lib/systemd/systemd-udevd
+    360       1 /sbin/dhclient -4 -v -i -pf /run/dhclient.enp0s3.pid -lf /var/lib/dhcp/dhclient.enp0s3.leases -I -df /var/lib/dhcp/dhclient6.enp0s3.leases enp0s3
+    394       1 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    431       1 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    372       1 /usr/sbin/cron -f
+    382       1 /usr/sbin/rsyslogd -n -iNONE
+     53       2 [acpi_thermal_pm]
+    108       2 [ata_sff]
+     45       2 [blkcg_punt_bio]
+    281       2 [card0-crtc0]
+    283       2 [card0-crtc1]
+    286       2 [card0-crtc2]
+    289       2 [card0-crtc3]
+    291       2 [card0-crtc4]
+    293       2 [card0-crtc5]
+    294       2 [card0-crtc6]
+    296       2 [card0-crtc7]
+     15       2 [cpuhp/0]
+    271       2 [cryptd]
+     47       2 [devfreq_wq]
+     46       2 [edac-poller]
+    151       2 [ext4-rsv-conver]
+     54       2 [ipv6_addrconf]
+    274       2 [irq/18-vmwgfx]
+    150       2 [jbd2/sda1-8]
+     19       2 [kauditd]
+     44       2 [kblockd]
+     23       2 [kcompactd0]
+     17       2 [kdevtmpfs]
+     25       2 [khugepaged]
+     20       2 [khungtaskd]
+     43       2 [kintegrityd]
+     24       2 [ksmd]
+     11       2 [ksoftirqd/0]
+     64       2 [kstrp]
+     51       2 [kswapd0]
+     52       2 [kthrotld]
+    512       2 [kworker/0:0-ata_sff]
+      6       2 [kworker/0:0H-events_highpri]
+     14       2 [kworker/0:1-events]
+     48       2 [kworker/0:1H-kblockd]
+    508       2 [kworker/0:2-ata_sff]
+      7       2 [kworker/u2:0-events_unbound]
+     55       2 [kworker/u2:1-flush-8:0]
+     68       2 [kworker/u3:0]
+     13       2 [migration/0]
+      8       2 [mm_percpu_wq]
+     18       2 [netns]
+     21       2 [oom_reaper]
+      3       2 [rcu_gp]
+      4       2 [rcu_par_gp]
+     12       2 [rcu_sched]
+      9       2 [rcu_tasks_rude_]
+     10       2 [rcu_tasks_trace]
+    109       2 [scsi_eh_0]
+    111       2 [scsi_eh_1]
+    114       2 [scsi_eh_2]
+    110       2 [scsi_tmf_0]
+    112       2 [scsi_tmf_1]
+    115       2 [scsi_tmf_2]
+    279       2 [ttm_swap]
+     22       2 [writeback]
+     67       2 [zswap-shrink]
+    501     498 su -
+    502     501 -bash
+    513     502 ps -u root -o pid,ppid,cmd
+    514     502 sort -k 2
+    PID    PPID CMD
+    492       1 /lib/systemd/systemd --user  0.0
